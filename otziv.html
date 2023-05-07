@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reynok Aleksandr</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .container {
+        width: 25%;
+        border: 5px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px auto;
+      }
+      .rating_block {
+        width: 125px;
+        height: 25px;
+      }
+      .rating_block input[type="radio"] {
+        display: none;
+      }
+      .label_rating {
+        float: right;
+        display: block;
+        width: 25px;
+        height: 25px;
+        background: url(rating.png) no-repeat 50% 0;
+        cursor: pointer;
+      }
+
+      .rating_block .label_rating:hover, /*Правило для ховера на текущий лейбл*/
+      .rating_block .label_rating:hover ~ .label_rating, /*Правило для всех следующих лейблов по DOM дереву*/
+      .rating_block input[type="radio"]:checked ~ .label_rating /*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/ {
+        background-position: 50% -25px;
+      }
+    </style>
+  </head>
+<body>
+ <div class="container">
+    <div class="rating_block">
+      <input name="rating" value="5" id="rating_5" type="radio" />
+      <label for="rating_5" class="label_rating"></label>
+
+      <input name="rating" value="4" id="rating_4" type="radio" />
+      <label for="rating_4" class="label_rating"></label>
+
+      <input name="rating" value="3" id="rating_3" type="radio" />
+      <label for="rating_3" class="label_rating"></label>
+
+      <input name="rating" value="2" id="rating_2" type="radio" />
+      <label for="rating_2" class="label_rating"></label>
+
+      <input name="rating" value="1" id="rating_1" type="radio" />
+      <label for="rating_1" class="label_rating"></label>
+    </div>
+    <img src="profile_logo_46342938.webp" alt="avatar" />
+     <img src="no.webp" alt="avatar" />   
+    <p><span>
+      Veljko P. @Veljko011</span> Norway </p>
+    <p>I really liked Alexander's work. He helped me a lot. he is very professional and has a lot of experience. thank… </p>
+ </div>
+   <div class="container">
+    <div class="rating_block">
+      <input name="rating" value="5" id="rating_5" type="radio" />
+      <label for="rating_5" class="label_rating"></label>
+
+      <input name="rating" value="4" id="rating_4" type="radio" />
+      <label for="rating_4" class="label_rating"></label>
+
+      <input name="rating" value="3" id="rating_3" type="radio" />
+      <label for="rating_3" class="label_rating"></label>
+
+      <input name="rating" value="2" id="rating_2" type="radio" />
+      <label for="rating_2" class="label_rating"></label>
+
+      <input name="rating" value="1" id="rating_1" type="radio" />
+      <label for="rating_1" class="label_rating"></label>
+    </div>
+    <img src="profile_logo_48191068.webp" alt="avatar" />
+    <img src="au.webp" alt="avatar" />
+    <p><span>Anushe E. @Team7y</span> Australia </p>
+    <p>Alexandr's mind works in a permanent state of engineering creativity. He is very fast to think and respond…</p>
+   </div>
+  </div>
+  <div class="container">
+   <div class="rating_block">
+     <input name="rating" value="5" id="rating_5" type="radio" />
+     <label for="rating_5" class="label_rating"></label>
+
+     <input name="rating" value="4" id="rating_4" type="radio" />
+     <label for="rating_4" class="label_rating"></label>
+
+     <input name="rating" value="3" id="rating_3" type="radio" />
+     <label for="rating_3" class="label_rating"></label>
+
+     <input name="rating" value="2" id="rating_2" type="radio" />
+     <label for="rating_2" class="label_rating"></label>
+
+     <input name="rating" value="1" id="rating_1" type="radio" />
+     <label for="rating_1" class="label_rating"></label>
+   </div>
+   <img src="profile_logo_5117832.webp" alt="avatar" />
+   <img src="gb.webp" alt="avatar" />
+   <p><span>Perry B. @perrybond</span> United Kingdom </p>
+   <p>very fast, knows his stuff</p>
+  </div>
+</div>
+<div class="container">
+ <div class="rating_block">
+   <input name="rating" value="5" id="rating_5" type="radio" />
+   <label for="rating_5" class="label_rating"></label>
+
+   <input name="rating" value="4" id="rating_4" type="radio" />
+   <label for="rating_4" class="label_rating"></label>
+
+   <input name="rating" value="3" id="rating_3" type="radio" />
+   <label for="rating_3" class="label_rating"></label>
+
+   <input name="rating" value="2" id="rating_2" type="radio" />
+   <label for="rating_2" class="label_rating"></label>
+
+   <input name="rating" value="1" id="rating_1" type="radio" />
+   <label for="rating_1" class="label_rating"></label>
+ </div>
+ <img src="de.webp" alt="avatar" />
+ <img src="de.webp" alt="avatar" />
+ <p><span>R. M. @RM3</span> Germany </p>
+ <p>Aleksandr delivered very professional CAD works and the communication was great. Looking forward to work…</p>
+</div>
+   <div class="container">
+    <div class="rating_block">
+      <input name="rating" value="5" id="rating_5" type="radio" />
+      <label for="rating_5" class="label_rating"></label>
+
+      <input name="rating" value="4" id="rating_4" type="radio" />
+      <label for="rating_4" class="label_rating"></label>
+
+      <input name="rating" value="3" id="rating_3" type="radio" />
+      <label for="rating_3" class="label_rating"></label>
+
+      <input name="rating" value="2" id="rating_2" type="radio" />
+      <label for="rating_2" class="label_rating"></label>
+
+      <input name="rating" value="1" id="rating_1" type="radio" />
+      <label for="rating_1" class="label_rating"></label>
+    </div>
+    <img src="profile_logo_11626016.webp" alt="avatar" />
+    <img src="au (1).webp" alt="avatar" />
+    <p><span>Greg W. @gregorywelsh</span> Australia </p>
+    <p>Very quick work and good communication</p>
+   </div>
+   <div class="container">
+    <div class="rating_block">
+      <input name="rating" value="5" id="rating_5" type="radio" />
+      <label for="rating_5" class="label_rating"></label>
+
+      <input name="rating" value="4" id="rating_4" type="radio" />
+      <label for="rating_4" class="label_rating"></label>
+
+      <input name="rating" value="3" id="rating_3" type="radio" />
+      <label for="rating_3" class="label_rating"></label>
+
+      <input name="rating" value="2" id="rating_2" type="radio" />
+      <label for="rating_2" class="label_rating"></label>
+
+      <input name="rating" value="1" id="rating_1" type="radio" />
+      <label for="rating_1" class="label_rating"></label>
+    </div>
+    <img src="" alt="avatar" />
+    <form action="reynok.a@yandex.ru" method="post">
+      <!--Создаем форму-->
+      <input
+        type="text"
+        placeholder="Имя"
+        name="fname"
+      /><!--Создаем строку для ввода имени-->
+      <input
+        type="email"
+        placeholder="E-mail"
+        name="email"
+      /><!--Создаем строку для ввода e-mail (пригодится для ответа)-->
+      <textarea
+        placeholder="Сообщение"
+        name="message"
+        rows="10"
+        cols="45"
+      ></textarea
+      ><!--Поле для ввода сообщения-->
+      <input type="submit" value="Отправить" /><!--Кнопка отправить-->
+    </form>
+   </div>
+</body>
+    <h1>
+
+    </h1>
+  </body>
+</html>
